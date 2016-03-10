@@ -232,7 +232,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {117625029,184413821,},--Sudo users
+    sudo_users = {117625029,184413821,137264699},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
@@ -288,9 +288,6 @@ function create_config( )
 =======================
 ⚙ادمین 
 @mianco
-
-چنل رسمی ربات:
-@hextorbot
 ]],
     help_text = [[
 📝 ليست دستورات مدیریتی :
@@ -395,9 +392,7 @@ filterlist
 🔰ادمین ربات🔰
 @minaco
 
-🔸قیمت هر گروه:
-🔅0⃣0⃣0⃣2⃣♦️نامحدود♦️ 
-@Hextor team]]
+]]
     }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
