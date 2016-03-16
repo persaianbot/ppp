@@ -1,6 +1,6 @@
 local function run(msg, matches ) 
   if maches[1]:lower() = "id" then
-    return "your idí±‡ğŸ»\n "..msg.from.id
+    return "your idï¿½ï¿½ï¿½ğŸ»\n "..msg.from.id
   end
 end
 
